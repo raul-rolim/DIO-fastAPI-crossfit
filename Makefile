@@ -9,3 +9,6 @@ create-migrations:
 
 run-migrations:
 	@set PYTHONPATH=%PYTHONPATH%;%cd% && alembic upgrade head
+
+kill:
+
